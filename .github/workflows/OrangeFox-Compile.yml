@@ -48,7 +48,7 @@ jobs:
     name: Build OFR by ${{ github.actor }}
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.RECOVERYv2 }}
     permissions:
       contents: write
     steps:
